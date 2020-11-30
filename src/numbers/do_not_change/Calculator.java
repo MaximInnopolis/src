@@ -11,14 +11,27 @@ public abstract class Calculator {
      *
      * @param numbers the list of numbers
      */
-    public Calculator(List<Number> numbers) { this.numbers = numbers; }
+    public Calculator(List<Number> numbers) {
+        this.numbers = numbers;
+    }
 
     /**
      * This is a getter for the list of numbers
      *
      * @return the list of numbers
      */
-    public List<Number> getNumbers() { return numbers; }
+    public List<Number> getNumbers() {
+        return numbers;
+    }
+
+    /**
+     * This is a setter for the list of numbers
+     *
+     * @param numbers the list of numbers
+     */
+    public void setNumbers(List<Number> numbers) {
+        this.numbers = numbers;
+    }
 
     /**
      * This method allows summarizing all elements of
